@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --celeste : hsl(179, 62%, 43%);
+    --verde : hsl(71, 73%, 54%);
+    --blanco : hsl(204, 43%, 93%);
+    --plomo : hsl(218, 22%, 67%);
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Karla', sans-serif;
+    background: var(--blanco);
+}
+
+.contenedor{
+    width: 650px;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+.contenido1{
+    padding: 40px;
+    background: #fff;
+}
+.contenido1 .titulo{
+    margin-bottom: 20px;
+    color: var(--celeste);
+    font-weight: 700;
+}
+.contenido1 .sub-titulo{
+    margin-bottom: 10px;
+    color: var(--verde);
+    font-weight: 700;
+    font-size: 17px;
+}
+.contenido1 .parrafo{
+    margin: 5px 0;
+    font-size: 16px;
+    color: var(--plomo);
+    font-weight: 400;
+
+}
+.contenido2{
+    display: flex;
+    flex-direction: row;
+}
+.suscripcion{
+    width: 50%;
+    padding: 40px;
+    background: var(--celeste);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+.suscripcion .titulo{
+    margin-bottom: 20px;
+    color: var(--blanco);
+}
+.suscripcion .parrafo{
+    color: var(--blanco);
+    margin: 10px 0;
+}
+.suscripcion-precio{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dollar{
+    color: var(--blanco);
+}
+.precio{
+    color: #80e1e2;
+}
+.btn{
+    text-decoration: none;
+    border-radius: 7px;
+    display: block;
+    text-align: center;
+    padding: 13px;
+    margin-top: 20px;
+    background: var(--verde);
+    font-weight: 700;
+    color: var(--blanco);
+}
+.nosotros{
+    padding: 40px;
+    width: 50%;
+    background: #4abebd;
+}
+.nosotros .titulo{
+    margin-bottom: 20px;
+    color: var(--blanco);
+}
+.nosotros .parrafo{
+    color: #eeee;
+    line-height: 22px;
+}
